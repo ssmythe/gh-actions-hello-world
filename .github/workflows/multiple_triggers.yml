@@ -5,7 +5,8 @@ on:
     pull_request:
     workflow_dispatch:
     schedule:
-        - cron: '11 4 * * *'  # 04:11 UTC = 9:11 PM PDT
+    - cron: '0 0 * * 0' # Weekly Sunday midnight
+
 
 jobs:
   say_hello:

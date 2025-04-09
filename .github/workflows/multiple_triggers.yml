@@ -1,4 +1,4 @@
-name: Hello World Workflow
+name: Hello World Multiple Triggers Workflow
 
 on:
     push:
